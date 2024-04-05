@@ -10,11 +10,11 @@ function getClock(){
     let hourNow = date.getHours() // Captura as Horas
     let minutesNow = date.getMinutes() // Captura os Minutos
 
-    hourNow < 10? // Verifica se a hora é maior que 10
+    hourNow < 10? // Verifica se a hora é menor que 10
     hourNow = `0${hourNow}`: // Caso for verdadeiro,  adiciona um zero à esquerda
     hourNow = `${hourNow}` // Caso for falso, retorna apenas a hora
 
-    minutesNow < 10? // Verifica se os minutos é maior que 10
+    minutesNow < 10? // Verifica se os minutos é menor que 10
     minutesNow = `0${minutesNow}`: // Caso for verdadeiro,  adiciona um zero à esquerda
     minutesNow = `${minutesNow}` // Caso for falso, retorna apenas os minutos
 
