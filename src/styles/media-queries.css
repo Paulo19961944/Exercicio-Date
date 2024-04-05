@@ -1,0 +1,89 @@
+/*Tablets Maiores*/
+@media screen and (max-width: 1024px) {
+    /*Data exibida na tela*/
+    #date{
+        font-size: 1.5em; /*Tamanho da fonte em 150%*/
+    }   
+
+    /*Link do Rodapé*/
+    footer a{
+        font-size: 1.2em; /*Tamanho da Fonte*/
+    }
+
+    /*Container*/
+    main section{
+        padding: 48px 60px; /*Preenchimento*/
+    }
+}
+
+/*Tablets Menores*/
+@media screen and (max-width: 744px) {
+    /*Data exibida na tela*/
+    #date{
+        font-size: 1.2em; /*Tamanho da fonte em 120%*/
+    }   
+
+    /*Link do Rodapé*/
+    footer a{
+        font-size: 1em; /*Tamanho da Fonte*/
+    }
+
+    /*Container*/
+    main section{
+        padding: 40px 48px; /*Preenchimento*/
+    }
+}
+
+/*Celulares Maiores*/
+@media screen and (max-width: 566px) {
+    /*Data exibida na tela*/
+    #date{
+        font-size: 0.95em; /*Tamanho da fonte em 95%*/
+    }   
+
+    /*Link do Rodapé*/
+    footer a{
+        font-size: 0.8em; /*Tamanho da Fonte*/
+    }
+
+    /*Container*/
+    main section{
+        padding: 32px; /*Preenchimento*/
+    }
+}
+
+/*Celular Médio*/
+@media screen and (max-width: 425px) {
+    /*Data exibida na tela*/
+    #date{
+        font-size: 0.75em; /*Tamanho da fonte em 75%*/
+    }   
+
+    /*Link do Rodapé*/
+    footer a{
+        font-size: 0.6em; /*Tamanho da Fonte*/
+    }
+
+    /*Container*/
+    main section{
+        padding: 24px; /*Preenchimento*/
+    }
+}
+
+/*Celular Menor*/
+@media screen and (max-width: 320px) {
+    /*Data exibida na tela*/
+    #date{
+        font-size: 0.65em; /*Tamanho da fonte em 65%*/
+    }   
+
+    /*Link do Rodapé*/
+    footer a{
+        font-size: 0.45em; /*Tamanho da Fonte*/
+    }
+
+    /*Container*/
+    main section{
+        padding: 24px; /*Preenchimento*/
+    }
+}

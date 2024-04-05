@@ -1,0 +1,46 @@
+/*Estilo Global*/
+*{
+    margin: 0; /*Zera a Margem*/
+    padding: 0; /*Zera o Padding*/
+    box-sizing: border-box; /*Conteúdo dentro do Box Model sem estourar a tela*/
+}
+
+/*Conteúdo da página*/
+body{
+    font-family: "Reddit Mono", monospace; /*Fonte do Google*/
+    background-color: #001B2E; /*Cor de Fundo*/
+    max-width: 100vw; /*Largura em toda a tela*/
+    min-height: 100vh; /*Altura mínima em toda a tela*/
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    justify-content: center; /*Alinha o eixo principal ao centro*/
+    align-items: center; /*Alinha o eixo perpendicular ao centro*/
+}
+
+/*Container*/
+main section{
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha o eixo principal ao centro*/
+    align-items: center; /*Alinha o eixo perpendicular ao centro*/
+    padding: 64px 96px;
+    background-color: #FCFCFC; /*Cor de fundo branca*/
+}
+
+/*Data exibida na tela*/
+#date{
+    font-size: 2em; /*Tamanho da fonte de 2em*/
+    font-weight: bold; /*Fonte Negrito*/
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 32px;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a{
+    text-transform: uppercase;
+    color: #FCFCFC;
+}
