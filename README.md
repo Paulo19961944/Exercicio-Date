@@ -6,6 +6,9 @@ Esse é um exercicio de um curso que estou fazendo na plataforma Udemy, basicame
 
 Como o curso é de JavaScript, eu também pensei no design. Usei a plataforma Coolors para escolher cores harmônicas para o projeto, que são matematicamente compativeis. Foi usados conceitos de UI/UX como Regra dos 8 pontos também. Além de eu ter colocado cores mais neutras, para proporcionar uma interface agradável para o usuário.
 
+# Link do Projeto
+[https://paulo19961944.github.io/Exercicio-Date/](https://paulo19961944.github.io/Exercicio-Date/)
+
 # Conclusão
 
 Foi algo muito bom e muito util, pois trabalhar com datas é muito importante, ainda mais pelo sentido de que no dia de hoje, tempo é essencial. Um fraternal abraço a todos os devs
